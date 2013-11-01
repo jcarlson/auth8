@@ -8,7 +8,7 @@ The site's author would like to protect the CRUD interface for posts so that onl
 
 The site's author would like links to edit/create posts right on the home page to make it easier to edit existing content. Only the site's author should see these links, and only when the author is signed in.
 
-## Story III
+## Story III - DONE
 
 Readers of the site would like to be notified when new posts are published. The site should allow readers to provide their email address and name to get started.
 

@@ -2,8 +2,17 @@
 
   <h2><%= post.title %></h2>
   <div><%= post.body %></div>
-  <hr/>
   <% if authenticated? %>
     edit link
   <% end %>
+  <hr/>
 <% end %>
+
+<hr/>
+<form method="POST" action="<%=signup_path%>">
+  <p>Sign up so I can spam you!</p>
+  <input type="email" name='email' placeholder="you@email.com" required />
+  <input type="text" name='name' placeholder="Your Name" required />
+  <button>Heck yes I want spam!</button>
+</form>
+
