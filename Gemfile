@@ -6,6 +6,7 @@ gem 'rails', '3.2.13'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
+gem 'pry'
 
 
 # Gems used only for assets and not required
@@ -36,7 +37,6 @@ end
 # gem 'unicorn'
 
 # Deploy with Capistrano
-# gem 'capistrano'
-
+# gem 'capistrano' 
 # To use debugger
 # gem 'debugger'

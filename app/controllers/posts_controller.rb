@@ -1,6 +1,8 @@
 class PostsController < ApplicationController
   # GET /posts
   # GET /posts.json
+  http_basic_authenticate_with name: AUTHOR_NAME, password: AUTHOR_PASS
+
   def index
     @posts = Post.all
 

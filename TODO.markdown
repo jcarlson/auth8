@@ -1,10 +1,10 @@
 # Things TODO
 
-## Story I
+## Story I - DONE
 
 The site's author would like to protect the CRUD interface for posts so that only he can create and update blog posts. The author should be able to sign in and sign out safely on a shared computer.
 
-## Story II
+## Story II - DONE
 
 The site's author would like links to edit/create posts right on the home page to make it easier to edit existing content. Only the site's author should see these links, and only when the author is signed in.
 
